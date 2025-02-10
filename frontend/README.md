@@ -1,16 +1,17 @@
 # recipai
 
-A new Flutter project.
+冷蔵庫を撮るだけで残りの食材から最適なレシピを作ってくれるアプリです
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- .env を受け取った後、以下コマンドで必要なライブラリをインストール
 
-A few resources to get you started if this is your first Flutter project:
+```
+flutter pub get
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 実機とパソコンを繋いで、以下で起動
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter run
+```
